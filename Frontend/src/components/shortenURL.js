@@ -9,7 +9,7 @@ class AddPost extends React.Component {
     event.preventDefault();
 
     const response = await axios.post(
-      'http://61a2a231.ngrok.io/api/url/shorten',
+      'http://ec2-54-92-183-111.compute-1.amazonaws.com/api/url/shorten',
       //Body
       {"longUrl": "https://www.amazon.com.au/FITBIT-Versa-Peach-Rose-Gold/dp/B07B9WFFJV?pf_rd_p=6cf8387c-7649-4d6e-a715-18f9cf456319&pd_rd_wg=v6eqI&pf_rd_r=9BXGEB8E5EH8RM451PYG&ref_=pd_gw_unk&pd_rd_w=fiBtR&pd_rd_r=d50d8b16-8f6f-47d0-aa32-a7cab4f016dc"},
       //Headers
